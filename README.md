@@ -1,44 +1,23 @@
-# Hello Node!
+# Title: In Teyvat
 
-This project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨
+## Description: jissae pls do <3
 
-[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run server-side JavaScript. This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
+## Outline:
 
-_Last updated: 14 August 2023_
+##### Home Page:
 
-## Prerequisites
+When opening the home page, there will be a quick animation and specific music. Once the animation finishes, there will be seven buttons, one for each nation in Genshin Impact. These buttons revolve around one larger button that has a pattern that can be seen on a certain non-playable character, namely Paimon's chest.
 
-You'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!
+##### Page 1 (Mondstadt):
 
-## What's in this project?
+When the button for Mondstadt on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Mondstadt-themed music. Once the animation finishes, the page will display Mondstadt scenery in the background, with text boxes describing the storyline of Mondstadt. If the user scrolls down, the user will see an image of Mondstadt's archon, with a text box on the right describing the archon.
 
-← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
+##### Page 2 (Liyue):
 
-← `public/style.css`: The styling rules for the pages in your site.
+When the button for Liyue on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Liyue-themed music. Once the animation finishes, the page will display Liyue scenery in the background, with text boxes describing the storyline of Liyue. If the user scrolls down, the user will see an image of Liyue's archon, with a text box on the right describing the archon.
 
-← `server.js`: The **Node.js** server script for your new site. The JavaScript defines the endpoints in the site back-end, one to return the homepage and one to update with the submitted color. Each one sends data to a Handlebars template which builds these parameter values into the web page the visitor sees.
+## Wireframe: who will do?
 
-← `package.json`: The NPM packages for your project's dependencies.
+## Js Description:
 
-← `src/`: This folder holds the site template along with some basic data files.
-
-← `src/pages/index.hbs`: This is the main page template for your site. The template receives parameters from the server script, which it includes in the page HTML. The page sends the user submitted color value in the body of a request, or as a query parameter to choose a random color.
-
-← `src/colors.json`: A collection of CSS color names. We use this in the server script to pick a random color, and to match searches against color names.
-
-← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
-
-## Try this next 🏗️
-
-Take a look in `TODO.md` for next steps you can try out in your new site!
-
-___Want a minimal version of this project to build your own Node.js app? Check out [Blank Node](https://glitch.com/edit/#!/remix/glitch-blank-node)!___
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+JavaScript will be used on the homepage to play music and display the animations when the website loads. It will initially hide the buttons that redirect users to other web pages and manage the redirection to those pages. We will also implement JavaScript code to have the buttons appear after the animation finishes and to make the smaller buttons revolve around the large button.
