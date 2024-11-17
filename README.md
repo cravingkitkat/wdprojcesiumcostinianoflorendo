@@ -12,15 +12,21 @@ When opening the home page, there will be a quick animation and specific music. 
 
 ##### Page 1 (Mondstadt):
 
-When the button for Mondstadt on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Mondstadt-themed music. Once the animation finishes, the page will display Mondstadt scenery in the background, with text boxes describing the storyline of Mondstadt. If the user scrolls down, the user will see an image of Mondstadt's archon, with a text box on the right describing the archon. By further going down
+When the button for Mondstadt on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Mondstadt-themed music. Once the animation finishes, the page will display Mondstadt scenery in the background, with text boxes describing the storyline of Mondstadt. If the user scrolls down, the user will see an image of Mondstadt's archon, with a text box on the right describing the archon. By further going down shows the roster of playable chracters in this nation.
 
 ##### Page 2 (Liyue):
 
-When the button for Liyue on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Liyue-themed music. Once the animation finishes, the page will display Liyue scenery in the background, with text boxes describing the storyline of Liyue. If the user scrolls down, the user will see an image of Liyue's archon, with a text box on the right describing the archon.
+When the button for Liyue on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Liyue-themed music. Once the animation finishes, the page will display Liyue scenery in the background, with text boxes describing the storyline of Liyue. If the user scrolls down, the user will see an image of Liyue's archon, with a text box on the right describing the archon. By further going down shows the roster of playable chracters in this nation.
 
 ## Wireframe:
 
-insert images of wireframe here
+![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/1.png?v=1731836244946)
+Homepage
+
+![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/2.png?v=1731836257150)
+![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/3.png?v=1731836259802)
+![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/4.png?v=1731836266253)
+Nation Page
 
 ## Js Description:
 
