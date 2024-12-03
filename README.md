@@ -18,7 +18,7 @@ When the button for Mondstadt on the home page is clicked, the user will be redi
 
 When the button for Liyue on the home page is clicked, the user will be redirected to this page, which will play a short animation and play Liyue-themed music. Once the animation finishes, the page will display Liyue scenery in the background, with text boxes describing the storyline of Liyue. If the user scrolls down, the user will see an image of Liyue's archon, with a text box on the right describing the archon. Going down further shows the roster of playable characters in this nation.
 
-## Wireframe: *redo and add context
+## Wireframe:
 
 ![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/wireframe.png?v=1733198116070)
 Homepage
