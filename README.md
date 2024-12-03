@@ -20,7 +20,7 @@ When the button for Liyue on the home page is clicked, the user will be redirect
 
 ## Wireframe: *redo and add context
 
-![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/1.png?v=1731836244946)
+![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/wireframe.png?v=1733198116070)
 Homepage
 
 ![Alt text](https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/2.png?v=1731836257150)
