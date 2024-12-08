@@ -24,11 +24,7 @@ body {
   border-radius: 50%;
   transition: transform 5s ease-in-out;
   overflow: hidden;
-}
-
-.circle-btn {
-  position: absolute;
-  inset: 0;
+  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
@@ -40,6 +36,13 @@ body {
   }
 }
 
-.wheel:hover {
+.circle-btn {
+  position: absolute;
+  inset: 0;
+  animation: spin 5s linear infinite;
   
+}
+
+.wheel:hover {
+  animation-play-state: paused;
 }
