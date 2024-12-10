@@ -39,11 +39,11 @@ body {
 
 .circle-btn {
   position: absolute;
-  animation: bucket_rotate 40s infinite linear;
-  top: 50%;
-  left: 50%;
-  margin-top: 11px;
-  margin-left: -13px;
+  inset: 0;
+}
+
+.circle-btn a:nth-child(1){
+  right
 }
 
 .container:hover {
