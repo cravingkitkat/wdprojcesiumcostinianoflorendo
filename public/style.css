@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: spin 5s linear infinite;
+  animation: spin 35s linear infinite;
 }
 
 .wheel {
@@ -25,7 +25,7 @@ body {
   border-radius: 50%;
   transition: transform 5s ease-in-out;
   overflow: hidden;
-  animation: spin 5s linear infinite;
+  animation: spin 35s linear infinite;
 }
 
 @keyframes spin {
@@ -39,17 +39,17 @@ body {
 
 @keyframes circle_spin {
   0% {
-    transform: rotate(0) translateX(150px) rotate(0);
+    transform: rotate(0) translate(650px) rotate(0);
   }
   100% {
-    transform: rotate(360deg) translate(150px) rotate(-360deg)
+    transform: rotate(360deg) translate(650px) rotate(-360deg)
   }
 }
 
 .circle-btn {
   position: absolute;
   inset: 0;
-  animation: circle_spin 5s linear infinite
+  
 }
 
 .circle-btn a:nth-of-type(1){
