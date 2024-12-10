@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: spin 5s linear infinite;
 }
 
 .wheel {
@@ -38,10 +39,13 @@ body {
 
 .circle-btn {
   position: absolute;
-  inset: 0;
-  animation: spin 5s linear infinite;  
+  animation: bucket_rotate 40s infinite linear;
+  top: 50%;
+  left: 50%;
+  margin-top: 11px;
+  margin-left: -13px;
 }
 
-.wheel:hover {
+.container:hover {
   animation-play-state: paused;
 }
