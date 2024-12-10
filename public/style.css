@@ -42,8 +42,9 @@ body {
   inset: 0;
 }
 
-.circle-btn a:nth-child(1){
-  right
+.circle-btn a:nth-of-type(1){
+  right: -8.5%;
+  top: 50%;
 }
 
 .container:hover {
