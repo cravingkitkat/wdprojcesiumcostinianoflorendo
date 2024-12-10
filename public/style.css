@@ -8,8 +8,8 @@ body {
 
 .container {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 650px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
