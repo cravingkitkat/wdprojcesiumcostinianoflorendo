@@ -39,8 +39,7 @@ body {
 .circle-btn {
   position: absolute;
   inset: 0;
-  animation: spin 5s linear infinite;
-  
+  animation: spin 5s linear infinite;  
 }
 
 .wheel:hover {
