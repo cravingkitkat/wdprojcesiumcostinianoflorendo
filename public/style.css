@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: spin 35s linear infinite;
+  
 }
 
 .wheel {
@@ -25,7 +25,7 @@ body {
   border-radius: 50%;
   transition: transform 5s ease-in-out;
   overflow: hidden;
-  
+  animation: spin 35s linear infinite;
 }
 
 @keyframes spin {
@@ -37,18 +37,21 @@ body {
   }
 }
 
-@keyframes circle_spin {
-  0% {
-    transform: rotate(0)
+@keyframes button-path {
+  0% { 
+    transform: rotate(0) translateX(315px) rotate(0); 
   }
-  100% {
-    transform: rotate(-360deg)
+  100% { 
+    transform: rotate(360deg) translateX(315px) rotate(-360deg); 
   }
 }
-
 .circle-btn {
   position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: button-path 35s linear infinite;
 }
+
 .container_2 {
   position: relative;
   width: 10px;
@@ -60,37 +63,40 @@ body {
 }
 
 .circle-btn:nth-child(1){
-  transform: rotate(0deg) translate(290px) rotate(0deg);
+  transform: rotate(0deg) translate(327px) rotate(0deg);
+  animation-delay: 0s
 }
 
 .circle-btn:nth-child(2){
-  transform: rotate(51.4deg) translate(290px) rotate(-51.4deg);
+  transform: rotate(51.4deg) translate(327px) rotate(-51.4deg);
+  animation-delay: 5s
 }
 
 .circle-btn:nth-child(3){
-  transform: rotate(102.8deg) translate(290px) rotate(-102.8deg);
+  transform: rotate(102.8deg) translate(327px) rotate(-102.8deg);
+  animation-delay: 10s
 }
 
 .circle-btn:nth-child(4){
-  transform: rotate(154.2deg) translate(290px) rotate(-154.2deg);
+  transform: rotate(154.2deg) translate(327px) rotate(-154.2deg);
+  animation-delay: 15s
 }
 
 .circle-btn:nth-child(5){
-  transform: rotate(205.6deg) translate(290px) rotate(-205.6deg);
+  transform: rotate(205.6deg) translate(327px) rotate(-205.6deg);
+  animation-delay: 20s
 }
 
 .circle-btn:nth-child(6){
-  transform: rotate(257deg) translate(290px) rotate(-257deg);
+  transform: rotate(257deg) translate(327px) rotate(-257deg);
+  animation-delay: 25s
 }
 
 .circle-btn:nth-child(7){
-  transform: rotate(308.4deg) translate(290px) rotate(-308.4deg);
+  transform: rotate(308.4deg) translate(327px) rotate(-308.4deg);
+  animation-delay: 30s
 }
 
-.container:hover {
-  animation-play-state: paused;
-}
-
-.circle-btn:hover {
-  animation-play-state: paused;
+.container_2:hover .circle-btn {
+  animation-play-state: paused
 }
