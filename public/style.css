@@ -62,12 +62,32 @@ body {
   animation: spin 35s linear infinite;
 }
 
-.circle-btn a:nth-child(1){
-  transform: rotate(0deg) translate(120px) rotate(0deg);
+.circle-btn:nth-child(1){
+  transform: rotate(0deg) translate(185px) rotate(0deg);
 }
 
-.circle-btn a:nth-child(2){
-  transform: rotate(60deg) translate(120px) rotate(-60deg);
+.circle-btn:nth-child(2){
+  transform: rotate(51deg) translate(150px) rotate(-51deg);
+}
+
+.circle-btn:nth-child(3){
+  transform: rotate(102deg) translate(250px) rotate(-102deg);
+}
+
+.circle-btn:nth-child(4){
+  transform: rotate(153deg) translate(250px) rotate(-153deg);
+}
+
+.circle-btn:nth-child(5){
+  transform: rotate(204deg) translate(250px) rotate(-204deg);
+}
+
+.circle-btn:nth-child(6){
+  transform: rotate(255deg) translate(250px) rotate(-255deg);
+}
+
+.circle-btn:nth-child(7){
+  transform: rotate(306deg) translate(250px) rotate(-306deg);
 }
 
 .container:hover {
