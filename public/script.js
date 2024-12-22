@@ -14,7 +14,7 @@ function resumeAnimations() {
   });
 }
 
-// Add event listeners for hover effect
+// Apply functions when the mouse hovers over a button
 buttons.forEach(button => {
   button.addEventListener('mouseover', pauseAnimations); // Pause when hovering over a button
   button.addEventListener('mouseout', resumeAnimations); // Resume when mouse leaves the button
