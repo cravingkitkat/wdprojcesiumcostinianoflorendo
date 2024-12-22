@@ -63,7 +63,7 @@ body {
   
 }
 
-/* The res */
+/* The rest of the CSS code separates each hyperlink and puts them in the correct position while they are spinning.*/
 
 .circle-btn:nth-child(1){
   transform: rotate(0deg) translate(327px) rotate(0deg);

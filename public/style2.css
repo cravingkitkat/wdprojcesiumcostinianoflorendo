@@ -7,15 +7,15 @@ body {
   color: #E2E2E2;
 }
 
-.container {
+.container { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
   position: relative;
   width: 1700px;
   height: 133px;
   padding: 133px;
   text-align: center;
   align-items: center;
-  background: rgba(226, 226, 226, 0.8);
-  color: #1B1B1B;
+  background: rgba(226, 226, 226, 0.8); /* background color and transparency */
+  color: #1B1B1B; /* text color */
   top: 70%;
 }
 
