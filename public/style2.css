@@ -10,11 +10,12 @@ body {
 .container {
   position: relative;
   width: 1700px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
+  height: 133px;
+  padding: 133px;
+  text-align: center;
   align-items: center;
   background: rgba(226, 226, 226, 0.8);
   color: #1B1B1B;
+  top: 70%;
 }
 
