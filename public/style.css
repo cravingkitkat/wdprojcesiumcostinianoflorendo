@@ -70,7 +70,7 @@ body {
 .main {
   z-index:1;
   position: relative;
-  top: 100px;
+  top: 251px;
 }
 
 .triquetra {
@@ -79,6 +79,8 @@ body {
   -webkit-transform: scale(1.01) translate(-50%, -50%);
   filter: brightness(0) invert(1) blur(5px);
   -webkit-filter: brightness(0) invert(1) blur(5px);
+  position: relative;
+  left: 252px;
 }
 
 footer {
