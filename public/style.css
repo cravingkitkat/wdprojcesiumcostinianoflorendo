@@ -71,7 +71,7 @@ body {
   z-index:0;
   position: relative;
   top: 130px;
-  width: 285px;
+  width: 300px;
 }
 
 .triquetra {
@@ -83,7 +83,7 @@ body {
   position: relative;
   left: 143px;
   bottom:13px;
-  width: 285px;
+  width: 300px;
 }
 
 footer {
@@ -149,12 +149,12 @@ footer {
   height: 256px;
 }
 .nat {
-  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192258652.png?v=1733656981228");
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
   width: 256px;
   height: 256px;
 }
 .snezh {
-  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192258652.png?v=1733656981228");
   width: 256px;
   height: 256px;
 }
