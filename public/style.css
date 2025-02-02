@@ -81,8 +81,8 @@ body {
   filter: brightness(0) invert(1) blur(5px);
   -webkit-filter: brightness(0) invert(1) blur(5px);
   position: relative;
-  left: 151px;
-  bottom: 21px;
+  left: 152px;
+  bottom: 23px;
   width: 300px;
 }
 
