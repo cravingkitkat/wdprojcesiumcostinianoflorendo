@@ -26,7 +26,6 @@ body {
   border: 3px solid #E2E2E2;
   box-shadow: 0 0 10px #E2E2E2, 0 0 10px #E2E2E2 inset;
   border-radius: 50%;
-  transition: transform 5s ease-in-out; /* transitions the spinning from slow to fast and back to slow */
   overflow: hidden;
   animation: spin 35s linear infinite; /* makes the wheel spin */
 }
