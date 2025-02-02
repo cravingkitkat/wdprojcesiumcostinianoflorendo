@@ -74,7 +74,6 @@ footer {
 
 .circle-btn:nth-child(1){
   animation-delay: 0s;
-  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_191840213.png?v=1733656736483")
 }
 
 .circle-btn:nth-child(2){
@@ -101,11 +100,26 @@ footer {
   animation-delay: -30s;
 }
 
-
-
 /* sprites */
-.mond {
-  background: url();
-  width:6px; 
-  height:6px;
+#mond {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_191840213.png?v=1733656736483");
 }
+#liyue {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192149804.png?v=1733656914101");
+}
+#inaz {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192207221.png?v=1733656928787");
+}
+#sum {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192219725.png?v=1733656942376");
+}
+#font {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192230595.png?v=1733656952926");
+}
+#nat {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
+}
+#snezh {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192258652.png?v=1733656981228");
+}
+
