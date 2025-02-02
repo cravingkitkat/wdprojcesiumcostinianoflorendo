@@ -53,9 +53,6 @@ body {
   background-repeat: no-repeat;
   animation: button-path 35s linear infinite;
 }
-.circle-btn:hover {
-  height: 296px;
-}
 
 .container_2 { /* Edits the container with the hyperlinks. */
   position: relative;
@@ -68,7 +65,7 @@ body {
 }
 
 .triquetra {
-  background: url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Untitled%20design%20(2).png?v=1738497904432') no-repeat 0px -20px;
+  background: url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Untitled%20design%20(4).png?v=1738497995851') no-repeat 0px -20px;
   width: 300px;
   height: 300px;
   background-size: 300px;
@@ -116,45 +113,54 @@ footer {
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 .liyue {
   background: url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192149804.png?v=1733656914101);
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 .inaz {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192207221.png?v=1733656928787");
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 .sum {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192219725.png?v=1733656942376");
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 .font {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192230595.png?v=1733656952926");
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 .nat {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 .snezh {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192258652.png?v=1733656981228");
   width: 230px;
   height: 230px;
   background-size: 230px;
+  transition: transform 0.3s ease;
 }
 
-
+.mond:hover, .liyue:hover, .inaz:hover, .sum:hover, .font:hover, .nat:hover, .snezh:hover {
+  transform: scale(1.3);
+}
 
 
 
