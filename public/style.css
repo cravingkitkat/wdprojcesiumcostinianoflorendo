@@ -15,8 +15,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 .wheel { /* Edits the wheel and makes it spin. */
