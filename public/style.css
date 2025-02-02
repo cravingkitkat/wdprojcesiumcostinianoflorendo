@@ -67,23 +67,11 @@ body {
   
 }
 
-.main {
-  z-index:0;
-  position: relative;
-  top: 130px;
-  width: 300px;
-}
-
 .triquetra {
-  z-index:-1;
-  transform: scale(1.01) translate(-50%, -50%);
-  -webkit-transform: scale(1.01) translate(-50%, -50%);
-  filter: brightness(0) invert(1) blur(5px);
-  -webkit-filter: brightness(0) invert(1) blur(5px);
-  position: relative;
-  left: 152px;
-  bottom: 23px;
+  background: url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Untitled%20design%20(2).png?v=1738497904432') no-repeat 0px -20px;
   width: 300px;
+  height: 300px;
+  background-size: 300px;
 }
 
 footer {
@@ -125,38 +113,45 @@ footer {
 /* sprites */
 .mond {
   background: url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_191840213.png?v=1733656736483);
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 .liyue {
   background: url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192149804.png?v=1733656914101);
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 .inaz {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192207221.png?v=1733656928787");
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 .sum {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192219725.png?v=1733656942376");
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 .font {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192230595.png?v=1733656952926");
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 .nat {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 .snezh {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192258652.png?v=1733656981228");
-  width: 256px;
-  height: 256px;
+  width: 230px;
+  height: 230px;
+  background-size: 230px;
 }
 
 
