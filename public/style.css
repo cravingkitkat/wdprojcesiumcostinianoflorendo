@@ -54,8 +54,8 @@ body {
   animation: button-path 35s linear infinite;
 }
 .circle-btn:hover {
-  width: 276px;
-  height: 276px;
+  width: 326x;
+  height: 326px;
 }
 
 .container_2 { /* Edits the container with the hyperlinks. */
