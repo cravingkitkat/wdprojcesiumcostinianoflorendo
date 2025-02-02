@@ -3,12 +3,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #1B1B1B;
-  color: #E2E2E2;
+  background: #1b1b1b;
+  color: #e2e2e2;
   overflow: hidden;
 }
 
-.container { /* Main container with wheel and hyperlinks */
+.container {
+  /* Main container with wheel and hyperlinks */
   position: relative;
   width: 100%;
   height: 100%;
@@ -17,56 +18,53 @@ body {
   align-items: center;
 }
 
-.wheel { /* Edits the wheel and makes it spin. */
+.wheel {
+  /* Edits the wheel and makes it spin. */
   position: absolute;
   width: 650px;
   height: 650px;
-  border: 3px solid #E2E2E2;
-  box-shadow: 0 0 10px #E2E2E2, 0 0 10px #E2E2E2 inset;
+  border: 3px solid #e2e2e2;
+  box-shadow: 0 0 10px #e2e2e2, 0 0 10px #e2e2e2 inset;
   border-radius: 50%;
   overflow: hidden;
   animation: spin 35s linear infinite; /* makes the wheel spin */
 }
 
-@keyframes spin { /* definition of the animation for the wheel */
-  from{
-    transform: rotate(0)
+@keyframes spin {
+  /* definition of the animation for the wheel */
+  from {
+    transform: rotate(0);
   }
   to {
-    transform: rotate(360deg)
+    transform: rotate(360deg);
   }
 }
 
-@keyframes button-path { /* definition of the animation making the hyperlinks spin with the wheel */
-  0% { 
-    transform: rotate(0) translateX(325px) rotate(0); 
+@keyframes button-path {
+  /* definition of the animation making the hyperlinks spin with the wheel */
+  0% {
+    transform: rotate(0) translateX(325px) rotate(0);
   }
-  100% { 
+  100% {
     transform: rotate(360deg) translateX(325px) rotate(-360deg); /* The rotation makes the images of the hyperlinks stay upright. */
   }
 }
-.circle-btn { /* Edits the hyperlinks and makes them follow the path of the wheel. */
+.circle-btn {
+  /* Edits the hyperlinks and makes them follow the path of the wheel. */
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
   animation: button-path 35s linear infinite;
 }
 
-.container_2 { /* Edits the container with the hyperlinks. */
+.container_2 {
+  /* Edits the container with the hyperlinks. */
   position: relative;
   width: 10px;
   height: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-}
-
-.triquetra {
-  background: url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Untitled%20design%20(4).png?v=1738497995851') no-repeat 0px -20px;
-  width: 300px;
-  height: 300px;
-  background-size: 300px;
 }
 
 footer {
@@ -77,33 +75,19 @@ footer {
 
 /* The rest of the CSS code separates each hyperlink and puts them in the correct position while they are spinning.*/
 
-.circle-btn:nth-child(1){
-  animation-delay: 0s;
-}
+.circle-btn:nth-child(1) {animation-delay: 0s;}
 
-.circle-btn:nth-child(2){
-  animation-delay: -5s;
-}
+.circle-btn:nth-child(2) {animation-delay: -5s;}
 
-.circle-btn:nth-child(3){
-  animation-delay: -10s;
-}
+.circle-btn:nth-child(3) {animation-delay: -10s;}
 
-.circle-btn:nth-child(4){
-  animation-delay: -15s;
-}
+.circle-btn:nth-child(4) {animation-delay: -15s;}
 
-.circle-btn:nth-child(5){
-  animation-delay: -20s;
-}
+.circle-btn:nth-child(5) {animation-delay: -20s;}
 
-.circle-btn:nth-child(6){
-  animation-delay: -25s;
-}
+.circle-btn:nth-child(6) {animation-delay: -25s;}
 
-.circle-btn:nth-child(7){
-  animation-delay: -30s;
-}
+.circle-btn:nth-child(7) {animation-delay: -30s;}
 
 /* sprites */
 .mond {
@@ -155,11 +139,14 @@ footer {
   background-size: 230px;
   transition: transform 0.3s ease;
 }
-
-.mond:hover, .liyue:hover, .inaz:hover, .sum:hover, .font:hover, .nat:hover, .snezh:hover {
-  transform: scale(1.3);
+.triquetra {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Untitled%20design%20(4).png?v=1738497995851") no-repeat 0px -20px;
+  width: 300px;
+  height: 300px;
+  background-size: 300px;
+  transition: transform 0.3s ease;
 }
 
-
-
-
+.mond:hover, .liyue:hover, .inaz:hover, .sum:hover, .font:hover, .nat:hover, .snezh:hover, .triquetra:hover {
+  transform: scale(1.3);
+}
