@@ -53,6 +53,10 @@ body {
   background-repeat: no-repeat;
   animation: button-path 35s linear infinite;
 }
+.circle-btn:hover {
+  width: 276px;
+  height: 276px;
+}
 
 .container_2 { /* Edits the container with the hyperlinks. */
   position: relative;
@@ -109,7 +113,7 @@ footer {
   height: 256px;
 }
 .liyue {
-  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192149804.png?v=1733656914101");
+  background: url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192149804.png?v=1733656914101);
   width: 256px;
   height: 256px;
 }
@@ -129,13 +133,15 @@ footer {
   height: 256px;
 }
 .nat {
-  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
-  width: 256px;
-  height: 256px;
-}
-.snezh {
   background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192258652.png?v=1733656981228");
   width: 256px;
   height: 256px;
 }
+.snezh {
+  background: url("https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-08_192244477.png?v=1733656968994");
+  width: 256px;
+  height: 256px;
+}
+
+
 
