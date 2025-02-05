@@ -115,16 +115,10 @@ nav { /* Navigational buttons */
   transform: scale(1.2);
 }
 
-.back {
-  position: fixed;
-  bottom: 0; /* puts the footer at the very bottom of the screen */
-  left: 0; /* puts the footer at the very left of the screen */
-  color: #FFFFFF; /* text color */
-  text-decoration: none; /* remove text underline */
-}
-
 footer {
   position: fixed;
   bottom: 0; /* puts the footer at the very bottom of the screen */
   right: 0; /* puts the footer at the very right of the screen */
+  z-index: 1;
+  color: #FFFFFF; /* text color */
 }
