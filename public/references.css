@@ -1,0 +1,17 @@
+body { /* Centers the text on the screen */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* For aesthetics */
+  background: #1B1B1B;
+  color: #E2E2E2;
+  overflow-Y: hidden;
+}
+li {
+  font-size: 30px;
+}
+a {
+  font-size: 45px;
+}
