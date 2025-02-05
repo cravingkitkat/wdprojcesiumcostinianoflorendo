@@ -1,22 +1,118 @@
-body {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #1B1B1B;
-  color: #E2E2E2;
+html {
+    scroll-behavior: smooth;
 }
 
-.container { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
-  position: relative;
-  width: 1700px;
-  height: 133px;
-  padding: 133px;
-  text-align: center;
+body {
+  background: #1B1B1B;
+  color: #E2E2E2;
+  overflow-X: hidden;
+}
+
+div {
+  display:flex;
+  width: 100vw;
+  height: 100vh;
   align-items: center;
+  padding-top: 10px;
+}
+
+.container1 { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
+  position: relative;
+  width: 34vw;
+  height: 80vh;
+  padding: 50px;
+  text-align: center;
   background: rgba(226, 226, 226, 0.8); /* background color and transparency */
   color: #1B1B1B; /* text color */
-  top: 70%;
+  left: 57vw;
+}
+
+.container2 { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
+  position: relative;
+  width: 34vw;
+  height: 80vh;
+  padding: 50px;
+  text-align: center;
+  background: rgba(226, 226, 226, 0.8); /* background color and transparency */
+  color: #1B1B1B; /* text color */
+  left: 4.38vw;
+  top: 1.5vh;
+  translate:52.62vw calc(-101.5vh - 10px)
+}
+
+.container3 { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
+  position: absolute;
+  width: 34vw;
+  height: 80vh;
+  padding: 50px;
+  left: 57vw;
+  translate: 0 1.5vh;
+  align-content: center;
+  z-index: -1;
+}
+
+#home {
+  position: fixed;
+  z-index: 1;
+  background:url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/cs0915%20(1).png?v=1738760076776') no-repeat;
+  width: 55px;
+	height: 51px;
+  background-size: 55px;
+}
+
+#home:hover {
+  background:url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/cs0915%20(2).png?v=1738760079273') no-repeat;
+  width: 55px;
+	height: 51px;
+  background-size: 55px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#n1 {
+  background: url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Natlan.png?v=1738675152584) no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+}
+
+#n1:hover {
+  position: relative;
+  background:url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Natlan%20(1).png?v=1738675849356') no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  top: 5px;
+  padding-right: 5px;
+}
+
+#n2 {
+  background: url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Natlan.png?v=1738675152584) no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+}
+
+#n2:hover {
+  position: relative;
+  background:url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/Natlan%20(1).png?v=1738675849356') no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  top: 5px;
+  margin-left: 5px;
+}
+
+#pic {
+  background:url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-22_181203634.png?v=1734862327292) no-repeat;
+  width: 388px;
+  height: 583px;
+  transform: scale(1.2);
 }
 
 .back {
