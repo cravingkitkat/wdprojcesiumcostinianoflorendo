@@ -17,6 +17,10 @@ div { /* Makes sure the part of the page for nation information and archon infor
   padding-top: 10px;
 }
 
+section > p {
+  font-size: 25px;
+}
+
 .container1 { /* Adjusts the size and location of the paragraph container, aligns text to center, changes background */
   position: relative;
   width: 34vw;
