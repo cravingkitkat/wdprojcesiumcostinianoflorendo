@@ -120,6 +120,6 @@ footer {
   bottom: 0; /* puts the footer at the very bottom of the screen */
   right: 0; /* puts the footer at the very right of the screen */
   z-index: 1;
-  background-color: #BABABA;
+  background-color: #1B1B1B;
   color: #FFFFFF; /* text color */
 }
