@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <!-- meta tags, etc. -->
     <meta charset="utf-8" />
-    <link
-      rel="icon"
-      href="https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image-removebg-preview.png?v=1733650974862"
-    />
-    <link rel="stylesheet" href="style2.css" />
-    <script defer src="script2.js"></script>
+    <meta name="author" content="Nikayla Costiniano, Jissae Florendo" />
+    <meta name="description" content="Dive into the enchanting world of Genshin Impact! This fanmade site uncovers the nations, characters, and history of Teyvat."/>
+    <meta name="keywords" content="Genshin Impact, Genshin, Teyvat, Nations, Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, Snezhnaya"/>
+    <meta name="revised" content="12/22/2024" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image-removebg-preview.png?v=1733650974862"/>
+    
+    <link rel="stylesheet" href="inazuma.css" />
+   <script defer src="script2.js"></script>
+    
     <title>InTeyvat</title>
+    
   </head>
-
+  
   <body>
-    <figure>
-      <!-- To put a caption on the image. -->
-      <img
-        src="https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-22_181203634.png?v=1734862327292"
-      />
-      <figcaption>Fig.1 - Barbatos</figcaption>
-      <!-- image caption -->
-    </figure>
-    <span class="container">
-      <!-- so that "display: flex" doesn't override "<br/>" -->
-      <p>
-        Mondstadt is known as the city of freedom ruled by the archon named
-        Barbatos.
-      </p>
-      <br />
-      <p>
-        Around 2600 years ago, Mondstadt was ruled by a tyrant named Decarabian.
-        The citizen of Mondstadt were trapped around a bubble of wind
-        surrounding the area in which they reside.
-      </p>
-    </span>
-    <a href="index.html" class="back">Click to go back to home page.</a>
+    
+    <a style="cursor: pointer" onclick="javascript: window.location = 'index.html';"><div id="home"> </div></a>
+    
+    <nav>
+      <a style="cursor: pointer" onclick="javascript: window.location = '#land';"><div id="n1"> </div></a>
+      <a style="cursor: pointer" onclick="javascript: window.location = '#archon';"><div id="n2"> </div></a>
+    </nav>
+    
+    <div id="land">
+      <section class="container1" id="sliding">
+        <p>
+          insert nation text here
+        </p>
+      </section>
+    </div>
+    
+    <div id="archon">
+      <section class="container2" id="wheee">
+        <p>
+          insert archon text here
+        </p>
+      </section>
+      <section class="container3" id="see">
+        <div id="pic">
+        </div>
+      </section>
+    </div>
+    
   </body>
-
-  <footer>
-    <p>
-      References:
-      <br />
-      Wiki, C. T. G. I. (n.d.). Statue of the Seven. Genshin Impact Wiki.
-      https://genshin-impact.fandom.com/wiki/Statue_of_The_Seven
-    </p>
-    <p>&copy Nikayla Costiniano &amp Jissae Florendo</p>
-  </footer>
+  
 </html>
