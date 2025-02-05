@@ -1,14 +1,15 @@
-html {
-    scroll-behavior: smooth;
+
+html { 
+    scroll-behavior: smooth; /* Makes the scroll effect created in the javascript function when using the navigation buttons */
 }
 
-body {
+body { /* For aesthetics */
   background: #1B1B1B;
   color: #E2E2E2;
   overflow-X: hidden;
 }
 
-div {
+div { /* Makes sure the part of the page for nation information and archon information are separated properly */
   display:flex;
   width: 100vw;
   height: 100vh;
@@ -16,7 +17,7 @@ div {
   padding-top: 10px;
 }
 
-.container1 { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
+.container1 { /* Adjusts the size and location of the paragraph container, aligns text to center, changes background */
   position: relative;
   width: 34vw;
   height: 80vh;
@@ -27,7 +28,7 @@ div {
   left: 57vw;
 }
 
-.container2 { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
+.container2 { /* Adjusts the size and location of the paragraph container, aligns text to center, changes background */
   position: relative;
   width: 34vw;
   height: 80vh;
@@ -40,7 +41,7 @@ div {
   translate:52.62vw calc(-101.5vh - 10px)
 }
 
-.container3 { /* Adjusts the size of the paragraph container, aligns contents to center, changes background */
+.container3 { /* Adjusts the size and location of the image container, aligns the image to center vertically */
   position: absolute;
   width: 34vw;
   height: 80vh;
@@ -48,10 +49,10 @@ div {
   left: 57vw;
   translate: 0 1.5vh;
   align-content: center;
-  z-index: -1;
+  z-index: -1; /* To make transition look smoother */
 }
 
-#home {
+#home { /* Back to Homepage button */
   position: fixed;
   z-index: 1;
   background:url('https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/cs0915%20(1).png?v=1738760076776') no-repeat;
@@ -67,7 +68,7 @@ div {
   background-size: 55px;
 }
 
-nav {
+nav { /* Navigational buttons */
   position: fixed;
   width: 100%;
   display: flex;
@@ -108,7 +109,7 @@ nav {
   margin-left: 5px;
 }
 
-#pic {
+#pic { /* Archon image */
   background:url(https://cdn.glitch.global/d2a0865f-fdcf-4240-99d7-ffaf101d988a/image_2024-12-22_181203634.png?v=1734862327292) no-repeat;
   width: 388px;
   height: 583px;
