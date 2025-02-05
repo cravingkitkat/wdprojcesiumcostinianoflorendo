@@ -1,1 +1,18 @@
-
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1B1B1B;
+  color: #E2E2E2;
+  overflow-Y: hidden;
+}
+p {
+  font-size: 150px;
+}
+a {
+  position: relative;
+  font-size: 45px;
+  translate: 0 -140px;
+}
